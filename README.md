@@ -53,6 +53,9 @@ tackcom.exe --addresses C:\xxxxxxxx\xxx
 <img width="1410" alt="image" src="https://user-images.githubusercontent.com/88639842/161434990-d40803fb-98c2-4cf5-8964-25c7bf1d83f7.png">
 
 
+![image](https://user-images.githubusercontent.com/88639842/161435571-29ceb83e-a375-413b-b8d0-5b631507c1c5.png)
+
+
 **缺点**
 
 
