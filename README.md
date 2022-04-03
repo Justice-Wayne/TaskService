@@ -45,7 +45,3 @@ Folder.RegisterTaskDefinition( "Test Boot Trigger", taskdefinition, createOrUpda
 **how to use**
 
 
-
-![image-20220403124313758](/Users/mozixuan/Library/Application Support/typora-user-images/image-20220403124313758.png)
-
-![image-20220403124325392](/Users/mozixuan/Library/Application Support/typora-user-images/image-20220403124325392.png)
