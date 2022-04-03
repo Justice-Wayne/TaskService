@@ -53,6 +53,10 @@ tackcom.exe --addresses C:\xxxxxxxx\xxx
 <img width="1410" alt="image" src="https://user-images.githubusercontent.com/88639842/161434990-d40803fb-98c2-4cf5-8964-25c7bf1d83f7.png">
 
 
+**缺点**
+1.大有8M
+2.需要管理员权限
+<img width="120" alt="image" src="https://user-images.githubusercontent.com/88639842/161435269-b5b11f52-db44-417c-90cd-e24e448caac2.png">
 
 
 
