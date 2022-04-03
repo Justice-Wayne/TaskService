@@ -60,5 +60,10 @@ tackcom.exe --addresses C:\xxxxxxxx\xxx
 <img width="120" alt="image" src="https://user-images.githubusercontent.com/88639842/161435269-b5b11f52-db44-417c-90cd-e24e448caac2.png">
 
 
+**参考资料**
+
+
+https://docs.microsoft.com/zh-cn/windows/win32/taskschd/taskservice-getfolder
+https://docs.microsoft.com/zh-cn/windows/win32/taskschd/daily-trigger-example--scripting-
 
 
