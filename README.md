@@ -54,8 +54,11 @@ tackcom.exe --addresses C:\xxxxxxxx\xxx
 
 
 **缺点**
+
+
 1.大有8M
 2.需要管理员权限
+3.使用过程可能有bug暂时懒的修。
 
 <img width="120" alt="image" src="https://user-images.githubusercontent.com/88639842/161435269-b5b11f52-db44-417c-90cd-e24e448caac2.png">
 
