@@ -45,6 +45,7 @@ Folder.RegisterTaskDefinition( "Test Boot Trigger", taskdefinition, createOrUpda
 **how to use**
 
 ```
+pyinstaller -F -w tackcom.py
 tackcom.exe --addresses C:\xxxxxxxx\xxx.exe
 重启生效
 ```
