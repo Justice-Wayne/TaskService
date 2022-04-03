@@ -1,5 +1,8 @@
 计划任务-权限维持
 
+钓鱼🎣之后终于不用求别人了<img width="119" alt="image" src="https://user-images.githubusercontent.com/88639842/161436292-109daa96-1a00-4ac9-808d-63c2eaddc8bb.png">
+
+
 使用python，通过调用Windows-api建立计划任务。
 
 ```python
