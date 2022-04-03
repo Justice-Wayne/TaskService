@@ -44,4 +44,16 @@ Folder.RegisterTaskDefinition( "Test Boot Trigger", taskdefinition, createOrUpda
 
 **how to use**
 
+```
+tackcom.exe --addresses C:\xxxxxxxx\xxx
+```
+![image](https://user-images.githubusercontent.com/88639842/161434981-efa023b1-bd32-4ca3-9fd4-838adabfe0fd.png)
+
+**效果**
+<img width="1410" alt="image" src="https://user-images.githubusercontent.com/88639842/161434990-d40803fb-98c2-4cf5-8964-25c7bf1d83f7.png">
+
+
+
+
+
 
