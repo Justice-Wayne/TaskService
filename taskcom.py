@@ -11,7 +11,7 @@ import win32com.client
 import argparse
 
 
-def regtask(patha):
+def regtask(patha,name):
     TriggerTypeBoot=8
     ActionTypeExecutable=0
     #创建 taskservice对象
@@ -64,7 +64,7 @@ def regtask(patha):
     Action =taskdefinition.Actions.Create( ActionTypeExecutable )
     Action.Path = patha # 相当于改为C:\\Users\\Administrator\\Desktop\\1.jpg
     createOrUpdateTask=6
-    folder.RegisterTaskDefinition( "Test Boot Trigger", taskdefinition, createOrUpdateTask, "Local Service",None,5)
+    folder.RegisterTaskDefinition( name, taskdefinition, createOrUpdateTask, "Local Service",None,5)
     print("计划任务创建完成")
 
 def parse_args():
@@ -74,15 +74,16 @@ def parse_args():
     description = "you should add those parameter"                   # 步骤二
     parser = argparse.ArgumentParser(description=description)        # 这些参数都有默认值，当调用parser.print_help()或者运行程序时由于参数不正确(此时python解释器其实也是调用了pring_help()方法)时，
                                                                      # 会打印这些描述信息，一般只需要传递description参数，如上。
-    help = "The path of address"
+    help = "tackcom.exe --addresses C:\\xxxxxxxx\\xxx.exe --name test"
     parser.add_argument('--addresses',help = help)                   # 步骤三，后面的help是我的描述
+    parser.add_argument('--name', help=help)
     args = parser.parse_args()                                       # 步骤四
     return args
 
 if __name__ == '__main__':
     args = parse_args()
     print(args.addresses)
-    regtask(args.addresses)
+    regtask(args.addresses,args.name)
 
 
 
